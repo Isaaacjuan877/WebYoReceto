@@ -1,0 +1,459 @@
+
+
+
+
+body{ 
+	background:#f1f1f1;
+	margin:0px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;  
+}
+
+.contenedor{
+	width: 80%;
+	padding: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.header{
+	height: 170px;
+	padding: 5px;
+	background: url(IMAGENES/FONDO2.jpeg);
+	background-size: cover;
+	background-attachment: fixed;
+	border-radius: 30px;
+	padding-bottom: 10px;
+	margin-bottom: 50px;
+}
+
+.logo{
+	width: 50%;
+	height: 100px;
+	float: left;
+}
+
+.logo img{
+	width: 300px;
+	height: 100px;
+	margin-left: 10px;
+}
+
+.buscador{
+	width: 50%;
+	height: 100px;
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.buscador input{
+	width: 200px;
+	height: 40px;
+	border-radius:10px;
+	margin-right: 10px; 
+}
+
+
+.buscador img{
+	width: 50px;
+	height: 50px;
+}
+.buscador button{
+	background: transparent;
+	border: none;
+}
+
+
+.menu{
+	width: 100%;
+	margin-top:10px;
+	background: white;
+	border-radius: 15px;
+	height: 60px;
+	float: right;
+}
+
+.menu nav{
+	width: 100%;
+}
+
+.menu nav ul{
+	overflow: hidden;
+	list-style:none;
+}
+
+.menu nav ul li{
+	float:left;
+	margin-left: 25px;
+	
+}
+
+.menu nav ul li a{
+	font-size: 20px;
+	text-decoration: none; 
+	display: inline-block;
+	color: black;
+}
+
+
+
+
+
+.menu nav ul li a:hover{
+	color: red;
+	
+}
+
+.menu nav ul li  ul  {
+	display: none;
+	
+	
+}
+	
+.menu nav ul li  a:hover + ul, .menu nav ul li ul:hover {
+		display: block;
+}	
+
+
+.introduccion{
+	width: 100%;
+	background:#ff5b5a;
+	border-radius: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.introduccion p{
+	width: 80%;
+	border-radius: 20px;
+	font-family: 'Gemunu Libre', sans-serif;
+font-family: 'Merriweather', serif;
+}
+
+.titulo{
+	width: 60%;
+	background: white;
+	border-radius: 30px;
+	padding: 10px;
+	color: red;
+	margin:20px;
+	font-family: 'Lobster', cursive;
+}
+
+.opciones{
+	width: 100%;
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background: url(IMAGENES/FONDO3.jpg);
+}
+
+.cajon-opcion{
+	background: white;
+	width: 30%;
+	padding-bottom: 10px;
+  	margin:10px;
+  	margin-top:20px;
+  	padding-bottom: 30px;
+}
+
+.cajon-opcion:hover input{
+	color: #fbbf29;
+	cursor: pointer;
+}
+
+.cajon-imagen{
+	width: 100%;
+}
+
+.cajon-imagen img{
+	width:100%;
+}
+.informacion p{	
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 15px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.boton,
+.revisar, 
+.publicar, 
+.nopublicar{
+	border-radius: 2px;
+	border-style: none;
+	padding:5px;
+	background: red;
+	color: white;
+	font-size:18px; 
+	font-family: 'Patrick Hand', cursive;
+}
+
+
+footer{
+	width: 100%;
+	background: #800000;
+}
+
+.footer-superior{
+	display: flex;
+	justify-content: center;
+}
+
+.footer-superior p{
+	margin-top: -5px;
+ 	cursor: pointer;
+}
+
+.info-footer{
+	margin: 50px;
+	width: 20%;
+	color: white;
+}
+
+.footer-inferior{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top:40px;
+	margin-bottom:40px; 
+}
+
+.logo2{
+	height: 40px;
+	width: 40px;
+	margin-left: 30px;
+}
+
+.footer-inferior p{
+ 	font-size: 20px;
+ 	margin-left: 50px;
+ 	color: white;
+}
+
+/*//////////////////////////////////////////// INICIAR SESION/////////////////////////////////////////*/
+
+.caja-inciarsesion{
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	display: flex;
+  	flex-wrap: wrap;
+  	justify-content: center;
+	background: url(IMAGENES/FONDO3.jpg);
+	border-radius: 20px;
+}
+
+.caja-inciarsesion img{
+	height:	350px;
+	width: 400px;
+	border-radius: 30px;
+}
+
+.inciarsesion{
+	margin-left: 30px;
+	display: flex;
+	justify-content: center;
+  	flex-direction: column;
+  	background:white;
+  	border-radius:20px; 
+  	padding: 10px;
+}
+
+/*////////////////////////////////////////////REGISTRO/////////////////////////////////////////*/
+
+.cajon-texto{
+	outline: none;
+	padding: 20px;
+	display: block;
+	width: 300px;
+	border-radius: 3px;
+	border: 1.5px solid #eee;
+	margin: 20px auto;
+	color: black;
+	border-radius: 20px;
+	border-color: black;
+}
+
+.cajon-texto:hover{
+	border-color: blue;
+}
+
+.boton-enviar{
+	 padding: 10px;
+	 color: #fff;
+	 background: #0098cb;
+	 width: 320px;
+	 margin: 20px auto;
+	 margin-top: 0;
+	 border: 0;
+	 border-radius: 3px;
+	 cursor: pointer;
+}
+.boton-enviar:hover {
+	background-color: #00b8eb;
+}
+
+.caja-registro{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	display: flex;
+  	flex-direction: column;
+	background: url(IMAGENES/FONDO3.jpg);
+	border-radius: 20px;
+}
+
+.caja-registro img{
+	height:	400px;
+	width: 500px;
+	border-radius: 30px;
+}
+
+.registrate{
+	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+}
+
+
+
+
+
+.contenedorpag .stray {
+	margin-bottom: 20px;
+}
+
+.contenedorpag .stray ul {
+	list-style: none;
+}
+
+.contenedorpag .stray ul li {
+	background: #fff;
+	padding:15px 10px;
+	border-bottom: 1px solid #c8c8c8;
+}
+
+.paginacion ul {
+	list-style: none;
+}
+.paginacion ul li {
+	display: inline-block;
+	margin-right: 10px; 
+}
+
+.paginacion ul .active a {
+	background: #ce7f08;
+}
+
+.paginacion ul .disabled {
+	background: #c8c8c8;
+	display: inline-block;
+	font-family: "Oswald", Arial, helvetica, sans-serif;
+	padding: 15px 25px;
+	cursor:not-allowed;
+	color:#fff;
+	text-decoration: none;
+}
+
+.paginacion ul li a {
+	display: inline-block;
+	font-family: "Oswald", Arial, helvetica, sans-serif;
+	padding: 15px 25px;
+	background: #424242;
+	color:#fff;
+	text-decoration: none;
+}
+
+.paginacion ul li a:hover {
+	text-decoration: none;
+	background: #3299bb;
+}
+
+.buscador input{
+	width: 200px;
+	height: 40px;
+	border-radius:10px;
+	margin-right: 10px; 
+}
+
+.opciones-receta{
+	width: 100%;
+	margin-top: 20px;
+	display: flex;
+	flex-direction:  row;
+	justify-content: center;
+	background: url(IMAGENES/FONDO3.jpg);
+
+}
+.cajon-receta{
+	background: white;
+	width: 100%;
+	padding-bottom: 10px;
+  	margin:10px;
+  	margin-top:20px;
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	justify-content: center;
+}
+
+.cajon-receta:hover h3{
+	color: #fbbf29;
+	cursor: pointer;
+}
+
+.cajon-imagen-receta{
+	width:70%;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.cajon-imagen-receta .imagen {
+	border-radius: 30px;
+	width: 100%;
+	
+}
+.informacion-receta p{	
+	
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.informacion-receta {
+	width: 100%;	
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	
+}
+.informacion-receta div {
+	border-radius: 30px;
+	
+}
+.informacion-receta div{
+	text-align: center;
+	width: 48%;
+	border: 5px solid red;	
+	flex: 1 1 auto;
+	
+}
+.nombre{
+	font-size: 16px;
+	border: 0;
+	font-family: arial;
+	font-weight: bold;
+	text-align: center;
+}
+
+
